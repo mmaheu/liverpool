@@ -6,7 +6,6 @@ import org.springframework.dao.DataIntegrityViolationException
  * ProductController
  * A controller class handles incoming web requests and performs actions such as redirects, rendering views and so on.
  * Testing a comment
- * I think we have a Git problem
  */
 class ProductController {
 
