@@ -1,0 +1,43 @@
+@import "bootstrap";
+body { padding-top: 60px; }
+.brand
+{
+  background: url(/images/ds.jpg) no-repeat center;
+  height: 20px;
+  width: 480px;
+}
+@import "bootstrap-responsive";
+
+.row {
+  margin-left: -40px;
+}
+
+.nav-pills > li > a:hover {
+  background-color: #0088CC;
+  color: #FFFFFF;
+}
+
+.nav-pills > li > a span {
+  font-style: italic;
+  color: #7d7d7d;
+}
+
+.nav-pills > li > a span:before {
+  content: "#";
+}
+
+.nav-pills > li > a:hover span {
+  color: #FFFFFF;
+}
+.center.navbar .nav,
+.center.navbar .nav > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+    *zoom:1; /* hasLayout ie7 trigger */
+    vertical-align: top;
+}
+
+.center .navbar-inner {
+    text-align:center;
+}
