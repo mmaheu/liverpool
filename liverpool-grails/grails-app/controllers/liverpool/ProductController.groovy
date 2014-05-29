@@ -3,14 +3,13 @@ package liverpool
 import org.springframework.dao.DataIntegrityViolationException
 
 /**
- * Testing Atom
  * ProductController
  * A controller class handles incoming web requests and performs actions such as redirects, rendering views and so on.
  * Testing a comment
  */
 class ProductController {
 
-    static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
+  static allowedMethods = [save: "POST", update: "POST", delete: "POST"]
 
     def index() {
         redirect(action: "list", params: params)
