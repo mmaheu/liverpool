@@ -1,4 +1,4 @@
 class HomeController < ApplicationController
-  def error
-  end  
+  def  error
+  end
 end
